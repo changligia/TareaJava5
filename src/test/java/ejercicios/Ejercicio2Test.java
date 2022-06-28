@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
@@ -30,8 +29,7 @@ public class Ejercicio2Test extends BaseTest {
         var usernameInput = driver.findElement(usernameInputLocator);
         var passwordInput = driver.findElement(passwordInputLocator);
         var buttonLogin = driver.findElement(buttonLoginLocator);
-
-        var softAssert = new SoftAssert(); //Creo un objeto de soft assert
+        
         log.info("Verificando que el username esté visible");
         softAssert.assertTrue(usernameInput.isDisplayed());
 

@@ -1,0 +1,5 @@
+11:59:42.577 [main] INFO  AUTOMATION - Voy a la pagina: http://the-internet.herokuapp.com/add_remove_elements/
+11:59:46.336 [main] INFO  AUTOMATION - Espero de forma explicita que carge la pagina por 2 segundos
+11:59:46.408 [main] INFO  AUTOMATION - Haciendo click 10 veces al botón de add element
+11:59:46.705 [main] INFO  AUTOMATION - Haciendo click en todos los deleteButton
+11:59:47.095 [main] INFO  AUTOMATION - Verificando que no hayan los deleteButton

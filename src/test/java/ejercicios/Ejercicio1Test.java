@@ -31,13 +31,15 @@ public class Ejercicio1Test extends BaseTest {
         var buttonLogin = driver.findElement(buttonLoginLocator); //Convierto el localizador radius a web element
 
         log.info("Verificando que el usernameInput esté visible");
-        Assert.assertTrue(usernameInput.isDisplayed());//verifico que el input de username esté visible
+        softAssert.assertTrue(usernameInput.isDisplayed());//verifico que el input de username esté visible
 
         log.info("Verificando que el passwordInput esté visible");
-        Assert.assertTrue(passwordInput.isDisplayed()); //verifico que el input de password esté visible
+        softAssert.assertTrue(passwordInput.isDisplayed()); //verifico que el input de password esté visible
 
         log.info("Verificando que el buttonLogin esté visible");
-        Assert.assertTrue(buttonLogin.isDisplayed());//verifico que el input de radius esté visible
+        softAssert.assertTrue(buttonLogin.isDisplayed());//verifico que el input de radius esté visible
+
+        softAssert.assertAll();
 
         log.info("Escribiendo el username");
         usernameInput.sendKeys("tomsmith");
