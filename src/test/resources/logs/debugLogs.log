@@ -1,9 +1,11 @@
-11:59:38.884 [main] DEBUG AUTOMATION - Inicializando el driver de Chrome
-11:59:42.427 [main] DEBUG AUTOMATION - Maximizando la ventana
-11:59:42.556 [main] DEBUG AUTOMATION - Eliminando las cookies
-11:59:42.577 [main] INFO  AUTOMATION - Voy a la pagina: http://the-internet.herokuapp.com/add_remove_elements/
-11:59:46.336 [main] INFO  AUTOMATION - Espero de forma explicita que carge la pagina por 2 segundos
-11:59:46.408 [main] INFO  AUTOMATION - Haciendo click 10 veces al botón de add element
-11:59:46.705 [main] INFO  AUTOMATION - Haciendo click en todos los deleteButton
-11:59:47.095 [main] INFO  AUTOMATION - Verificando que no hayan los deleteButton
-11:59:47.102 [main] DEBUG AUTOMATION - Matando el driver de Chrome
+23:40:36.140 [main] DEBUG AUTOMATION - Inicializando el driver de Chrome
+23:40:38.519 [main] DEBUG AUTOMATION - Maximizando la ventana
+23:40:38.660 [main] DEBUG AUTOMATION - Eliminando las cookies
+23:40:38.676 [main] INFO  AUTOMATION - Voy a la pagina: http://the-internet.herokuapp.com/status_codes
+23:40:39.999 [main] INFO  AUTOMATION - Espero de forma explicita que carge la pagina por 2 segundos
+23:40:40.087 [main] INFO  AUTOMATION - Haciendo click en el 404
+23:40:40.356 [main] INFO  AUTOMATION - Espero de forma explicita que carge la pagina por 2 segundos
+23:40:40.422 [main] INFO  AUTOMATION - Haciendo click en here
+23:40:40.647 [main] INFO  AUTOMATION - Espero de forma explicita que carge la pagina por 2 segundos
+23:40:40.688 [main] INFO  AUTOMATION - Verifico que la url sea la misma que la del punto1
+23:40:40.693 [main] DEBUG AUTOMATION - Matando el driver de Chrome
