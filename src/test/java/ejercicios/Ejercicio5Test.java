@@ -4,6 +4,7 @@ import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -42,6 +43,7 @@ public class Ejercicio5Test extends BaseTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(titleLocator3));
 
         log.info("Verifico que la url sea la misma que la del punto1");
-
+        var urlActual = driver.getCurrentUrl();
+        Assert.assertEquals(urlActual, url);
     }
 }

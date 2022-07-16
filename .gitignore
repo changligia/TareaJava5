@@ -1,2 +1,4 @@
 .idea/
 target/
+resources/logs/debugLogs.log/
+resources/logs/informativeLogs.log/

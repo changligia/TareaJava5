@@ -29,7 +29,7 @@ public class Ejercicio4Test extends BaseTest {
         for (var i = 0; i < 10; i++) {
             addElementButton.click();
         }
-
+        
         var deleteElementButtonLocator = By.cssSelector("button[onclick='deleteElement()']");
         var deleteButtonList = driver.findElements(deleteElementButtonLocator);
         log.info("Haciendo click en todos los deleteButton");
@@ -40,6 +40,5 @@ public class Ejercicio4Test extends BaseTest {
         deleteButtonList = driver.findElements(deleteElementButtonLocator);
         log.info("Verificando que no hayan los deleteButton");
         Assert.assertEquals(deleteButtonList.size(), 0);
-
     }
 }

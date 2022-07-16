@@ -71,5 +71,4 @@ public class Ejercicio1Test extends BaseTest {
         log.info("Verificando que el username esté visible");
         Assert.assertTrue(usernameInput.isDisplayed());
     }
-
 }
